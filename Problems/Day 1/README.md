@@ -8,7 +8,7 @@ They want to get good marks with their lab performance. (Who wants to miss an ea
  Given the marks of Yagami and Ruyk, can you predict their mood?
  :smiley_cat:    :crying_cat_face:
  
- In a single line there will be two integers the score of Yagami <img src="https://latex.codecogs.com/gif.latex?m_1" />  and score of Ruyk <img src="https://latex.codecogs.com/gif.latex?m_2" /> Print two strings *"happy"* or *"non_happy"* based on the statement.
+ In a single line there will be two integers, the score of Yagami *m_1*  and score of Ruyk *m_2*. Print two strings *"happy"* or *"non_happy"* based on the statement.
  
  #### Sample Input Output
  ------------------------------------------------------------------------------------
