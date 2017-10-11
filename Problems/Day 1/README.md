@@ -41,18 +41,28 @@ No one is happy if he gets some mark *m* less than **0**.
  > In first exapmle, Yagami got 12 and Riyk got 34. As, Ruyk got more mark than Yagami he is happy, Yagami is not.
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  ### The `Signs` of `Three`
 
 Three is indeed a magical number. Have you heard of the great **"Power of three"** ? (No, I'm not talking about `cgpa`!)
 
 However, lets talk about something different. There are so many binary operations out there which will take two numbers and will give you one number as 
 output.
+
+
 When you multiply two integers, the result is always an integer. (What about division?) We are not going towards group theory though! Instead,
-we will solve a simple enough problem. Lets say, you are given an integer which is the result of two binary multiplication or in simple 
+we will solve a simple enough problem. Lets say, you are given an integer which is the result of two multiplications or in simple 
 words, I will take three integers, multiply them and give you the result.
 
  
-Now, can you predict the signs of those three integers?
+ Now, can you predict the signs of those three integers?
  
  In a single line there will be one integer, the multiplied result. Print the possible signs of the individual integers.
  
@@ -75,18 +85,66 @@ Now, can you predict the signs of those three integers?
  
  
  
+ 
+ 
+ 
+ 
+ 
+ ### `8 o'clock class`
+
+![Graph](https://ibb.co/kjRWtw)
+
+ Kirito has "Solid state physics" class @ 8 o'clock, Now he has many options. He can either go to pocketgate
+ or maingate for having breakfast, then can go to class. (Or he can sleep and miss the class)
+
+ There's a road between his home and pocketgate which takes *t1* time to traverse, his home and maingate
+ which takes *t2* time, pocketgate and maingate which takes *t3* time, maingate and class which takes 
+ *t4* time, pocketgate and class which takes *t5* time.
+ 
+ Obviously, Kirito will choose the path which will take him to class (after having breakfast) in minimum
+ time but he doesn't want to reach too early (Who wants?). So, the time taken should be greater than *T*. 
+ 
+ You will be given 6 integers, *t1*, *t2*, *t3*, *t4*, *t5*, *T*. You have to print the minimum time
+ satisfying the conditions, if there are no valid paths print **"ajke_ghumabo"**.
+ 
+ #### Sample Input Output
+ ------------------------------------------------------------------------------------
+ ```
+ 2 3 4 2 1 3
+ 5
+ 3 5 1 2 10 5
+ 6
+ 2 5 1 1 2 8
+ ajke_ghumabo
+ 
+ ```
+ 
+ #### Explanation
+ ------------------------------------------------------------------------------------
+ 
+ > Think about all possible paths.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  ### `Rectangle Intersection`
 
 ![Rectangle](http://www.geeksforgeeks.org/wp-content/uploads/rectanglesOverlap.png)
 
-Itachi is working on a complicated computer vision algorithm, as a subtask he has to detect intersection of two rectangles. But, he has no time
-to implement this as he has to write 4 lab reports today. So, he asks for your help. Can you implement it for him?
+ Itachi is working on a complicated computer vision algorithm, as a subtask he has to detect intersection of two rectangles. But, he has no time
+ to implement this, as he has to write 4 lab reports today. So, he asks for your help. Can you implement it for him?
 
  You are given the upper left and lower right coordinates for each rectangle. You have to print "yes" if the rectangles intersect and "no" otherwise.
  
  In a single line there will be 8 integers, *x1* *y1* *x2* *y2* *x3* *y3* *x4* *y4* where, (x1,y1) is the upper left coordinate of first rectangle,
- (x2,y2) is the lower right coordinate of first rectangle, (x3,y4) is the upper left coordinate of second rectangle and (x4,y4) is the lower right
- coordinate of second rectangle.
+ (x2,y2) is the lower right coordinate of first rectangle, (x3,y4) is the upper left coordinate of the second rectangle and (x4,y4) is the lower right
+ coordinate of the second rectangle.
  
  #### Sample Input Output
  ------------------------------------------------------------------------------------
