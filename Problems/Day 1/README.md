@@ -89,10 +89,9 @@ words, I will take three integers, multiply them and give you the result.
  
  
  
- 
  ### `8 o'clock class`
 
-![Graph](https://ibb.co/kjRWtw)
+![Graph](https://preview.ibb.co/mH24Dw/done.png)
 
  Kirito has "Solid state physics" class @ 8 o'clock, Now he has many options. He can either go to pocketgate
  or maingate for having breakfast, then can go to class. (Or he can sleep and miss the class)
