@@ -2,12 +2,13 @@
 
 ### The `Lab Performance` dilemma
 
- Yagami and Ruyk are in the same Introductory C Programming Class. Surprised? Don't be! There's more.
+Yagami and Ruyk are in the same "Introductory C Programming Class". Surprised? Don't be! There's more.
 They want to get good marks with their lab performance. (Who wants to miss an easy A+ in C programming lab, right?) Now, Yagami is happy *IF* he gets more marks than Ruyk and Ruyk is happy *IF* Yagami can't score more marks than him. But, the teachers aren't so easygoing. Sometimes, they give negative marking.  :disappointed: No one is happy if he gets some mark **m** less than **0**.
  
  Given the marks of Yagami and Ruyk, can you predict their mood?
  :smiley_cat:    :crying_cat_face:
  
+ In a single line there will be two integers the score of Yagami $m_1$ and score of Ruyk $m_2$ Print two strings *"happy"* or *"non_happy"* based on the statement.
  
  #### Sample Input Output
  ------------------------------------------------------------------------------------
@@ -19,7 +20,7 @@ They want to get good marks with their lab performance. (Who wants to miss an ea
  5 2
  happy not_happy
  -1 0
- not happy happy
+ not_happy happy
  0 0
  not_happy not_happy
  -5 -10
