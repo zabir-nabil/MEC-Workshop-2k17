@@ -6,14 +6,14 @@
 
 Yagami and Ruyk are in the same "Introductory C Programming Class". Surprised? Don't be! There's more.
 
-They want to get good marks with their lab performances. (Who wants to miss an easy A+ in C programming lab, right?) Now, Yagami is happy *IF* he gets more marks 
+They both want to get good marks with their lab performances. (Who wants to miss an easy A+ in C programming lab, right?) Now, Yagami is happy *IF* he gets more marks 
 than Ruyk and Ruyk is happy *IF* Yagami can't score more marks than him. But, the teachers aren't so easygoing. Sometimes, they give negative marking.  :disappointed: 
-No one is happy if he gets some mark *m* less than **0**.
+No one is happy if he gets some score *m* less than **0**.
  
  Given the marks of Yagami and Ruyk, can you predict their moods?
  :smiley_cat:    :crying_cat_face:
  
- In a single line there will be two integers, the score of Yagami *m_1*  and score of Ruyk *m_2*. Print two strings *"happy"* or *"non_happy"* based on the statement.
+ In a single line there will be two integers, the score of Yagami *m_1*  and score of Ruyk *m_2*. Print two strings *"happy"* or *"not_happy"* based on the statement.
  
  #### Sample Input Output
  ------------------------------------------------------------------------------------
@@ -38,7 +38,7 @@ No one is happy if he gets some mark *m* less than **0**.
  #### Explanation
  ------------------------------------------------------------------------------------
  
- > In first exapmle, Yagami got 12 and Riyk got 34. As, Ruyk got more mark than Yagami he is happy, Yagami is not.
+ > In first exapmle, Yagami got 12 and Riyk got 34. As, Ruyk got more marks than Yagami he is happy, Yagami is not.
  
  
  
@@ -54,7 +54,7 @@ No one is happy if he gets some mark *m* less than **0**.
 Three is indeed a magical number. Have you heard of the great **"Power of three"** ? (No, I'm not talking about `cgpa`!)
 
 However, lets talk about something different. There are so many binary operations out there which will take two numbers and will give you one number as 
-output.
+an output.
 
 
 When you multiply two integers, the result is always an integer. (What about division?) We are not going towards group theory though! Instead,
@@ -93,8 +93,8 @@ words, I will take three integers, multiply them and give you the result.
 
 ![Graph](https://preview.ibb.co/mH24Dw/done.png)
 
- Kirito has "Solid state physics" class @ 8 o'clock, Now he has many options. He can either go to pocketgate
- or maingate for having breakfast, then can go to class. (Or he can sleep and miss the class)
+ Kirito has "Solid state physics" class @ 8 o'clock :clock8:, Now he has many options. He can either go to pocketgate
+ or maingate for having breakfast, then can go to class. (Or he can sleep and miss the class! :sleeping: )
 
  There's a road between his home and pocketgate which takes *t1* time to traverse, his home and maingate
  which takes *t2* time, pocketgate and maingate which takes *t3* time, maingate and class which takes 
@@ -104,7 +104,7 @@ words, I will take three integers, multiply them and give you the result.
  time but he doesn't want to reach too early (Who wants?). So, the time taken should be greater than *T*. 
  
  You will be given 6 integers, *t1*, *t2*, *t3*, *t4*, *t5*, *T*. You have to print the minimum time
- satisfying the conditions, if there are no valid paths print **"ajke_ghumabo"**.
+ satisfying the conditions, if there is no valid path print **"ajke_ghumabo"**.
  
  #### Sample Input Output
  ------------------------------------------------------------------------------------
